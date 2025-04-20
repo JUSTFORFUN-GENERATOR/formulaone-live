@@ -1,0 +1,1 @@
+// Composant d'affichage d’un circuit
