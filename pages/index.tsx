@@ -1,7 +1,6 @@
 
 import React from "react";
 import Head from "next/head";
-import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
   return (
@@ -24,12 +23,12 @@ export default function LandingPage() {
       </p>
 
       <div className="flex justify-center gap-4">
-        <Button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-lg">
+        <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-lg">
           Télécharger l'app
-        </Button>
-        <Button variant="outline" className="text-white border-white px-6 py-3 rounded-full text-lg">
+        </button>
+        <button className="border border-white text-white px-6 py-3 rounded-full text-lg">
           Accès Web
-        </Button>
+        </button>
       </div>
 
       <footer className="mt-12 text-sm text-gray-400">
